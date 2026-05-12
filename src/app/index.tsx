@@ -67,7 +67,6 @@ const HomeScreen = () => {
         barStyle={darkMode ? "light-content" : "dark-content"}
       />
 
-      {/* Search Bar */}
       <View
         style={[
           styles.nav,
@@ -103,7 +102,6 @@ const HomeScreen = () => {
         </View>
       </View>
 
-      {/* Notes */}
       <FlatList
         data={USERS}
         keyExtractor={(item) => item.id}
@@ -162,7 +160,6 @@ const HomeScreen = () => {
         )}
       />
 
-      {/* Floating Button */}
       <Pressable
         style={[
           styles.fab,
@@ -197,7 +194,6 @@ const NoteEditorScreen = () => {
         style={{ flex: 1 }}
         behavior={Platform.OS === "ios" ? "padding" : "height"}
       >
-        {/* Header */}
         <View style={colors.header}>
           <Text style={colors.headerTitle}>Create Note</Text>
 
@@ -206,7 +202,6 @@ const NoteEditorScreen = () => {
           </Text>
         </View>
 
-        {/* Buttons */}
         <View style={colors.buttonRow}>
           <Pressable
             style={({ pressed }) => [
@@ -235,7 +230,6 @@ const NoteEditorScreen = () => {
           </Pressable>
         </View>
 
-        {/* Inputs */}
         <View style={colors.inputContainer}>
           <TextInput
             placeholder="Enter note title..."
@@ -260,7 +254,7 @@ const NoteEditorScreen = () => {
   );
 };
 
-export default NoteEditorScreen;
+export default HomeScreen;
 
 const styles = StyleSheet.create({
   home: {
