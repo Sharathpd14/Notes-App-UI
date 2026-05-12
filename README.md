@@ -177,6 +177,6 @@ Join our community of developers creating universal apps.
 
 ## App Output
 
-![Notes App Screenshot](/assets/images/o1.jpg)
+![Notes App Screenshot](assets/images/o1.jpg)
 ![Notes App Screenshot](assets/images/o2.jpg)
 ![Notes App Screenshot](assets/images/o3.jpg)
